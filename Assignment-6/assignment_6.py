@@ -1,10 +1,17 @@
-"""
+'''
+Name: Lanke Gauri Arvind 
+Class: Btech-B2
+Roll: 151
+
 Assignment 6: Named Entity Recognition (NER)
+'''
+
+
+"""
 - spaCy NER pipeline & displaCy entity visualization logic
 - Custom spaCy EntityRuler for domain-specific clinical entity parsing
 - Extract Drug names, Dosages, Symptoms, and Diagnoses from EHR summaries
 """
-
 import os
 import re
 import json

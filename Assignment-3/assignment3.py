@@ -1,4 +1,11 @@
-# Assignment 3: Bag-of-Words & TF-IDF Vectorization
+'''
+Name: Lanke Gauri Arvind 
+Class: Btech-B2
+Roll: 151
+
+Assignment 3: Bag-of-Words & TF-IDF Vectorization
+'''
+
 
 import os
 import json

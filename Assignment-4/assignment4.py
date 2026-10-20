@@ -1,11 +1,18 @@
+'''
+Name: Lanke Gauri Arvind 
+Class: Btech-B2
+Roll: 151
+
+Assignment 4: Word Embeddings - Word2Vec & GloVe
+'''
+
+
 """
-Assignment 4: Word Embeddings – Word2Vec & GloVe
 - Train Word2Vec model on custom e-commerce product descriptions
 - Explore semantic similarity & word vector analogies (e.g., king - man + woman ≈ queen)
 - 2D embedding space visualization via PCA / t-SNE
 - E-Commerce Semantic Product Recommendation Engine
 """
-
 import os
 import json
 import numpy as np

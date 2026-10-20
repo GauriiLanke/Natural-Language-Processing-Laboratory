@@ -1,10 +1,16 @@
-"""
+'''
+Name: Lanke Gauri Arvind 
+Class: Btech-B2
+Roll: 151
+
 Assignment 8: Transformer-based Sentiment Analysis using Hugging Face
+'''
+
+"""
 - Multilingual Sentiment Classification using Hugging Face Transformers & DistilBERT
 - Compare Transformer performance against Machine Learning baselines
 - Multilingual social-media opinion mining (English, Hindi, Marathi)
 """
-
 import os
 import csv
 from typing import Dict, List

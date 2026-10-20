@@ -1,10 +1,17 @@
-"""
+'''
+Name: Lanke Gauri Arvind 
+Class: Btech-B2
+Roll: 151
+
 Assignment 9: Text Classification using Deep Learning (LSTM / BERT)
+'''
+
+
+"""
 - Multi-class news article category routing (World, Sports, Business, Sci/Tech)
 - Bi-directional LSTM PyTorch network vs. Fine-tuned DistilBERT Transformer
 - Benchmark training time, classification accuracy, loss curves, and inference speed (< 200 ms)
 """
-
 import os
 import csv
 import time

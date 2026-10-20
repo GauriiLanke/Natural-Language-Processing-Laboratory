@@ -1,21 +1,22 @@
-# Assignment 2: Regular Expressions & Text Cleaning
+'''
+Name: Lanke Gauri Arvind 
+Class: Btech-B2
+Roll: 151
+
+Assignment 2: Regular Expressions & Text Cleaning
+'''
+
 
 import re
 import pandas as pd
 
-# --------------------------------------------------
 # Read Dataset
-# --------------------------------------------------
-
 df = pd.read_csv(r'E:\Natural-Language-Processing-Laboratory\Assignment-2\resumes.csv')
 
 print("Original Dataset\n")
 print(df)
 
-# --------------------------------------------------
 # TextCleaner Class
-# --------------------------------------------------
-
 class TextCleaner:
 
     # Extract Email
@@ -99,14 +100,11 @@ class TextCleaner:
 
         return ", ".join(found)
 
-# --------------------------------------------------
+
 
 cleaner = TextCleaner()
 
-# --------------------------------------------------
 # Apply Functions
-# --------------------------------------------------
-
 df["Name"] = df["resume"].apply(cleaner.extract_name)
 
 df["Email"] = df["resume"].apply(cleaner.extract_email)
@@ -129,10 +127,7 @@ df["Clean_Text"] = df["resume"].apply(cleaner.remove_html)
 
 df["Clean_Text"] = df["Clean_Text"].apply(cleaner.remove_json)
 
-# --------------------------------------------------
 # Display Results
-# --------------------------------------------------
-
 print("\n\nExtracted Information\n")
 
 print(df[["Name",
@@ -143,10 +138,7 @@ print(df[["Name",
           "URL",
           "Hashtags"]])
 
-# --------------------------------------------------
 # Save CSV
-# --------------------------------------------------
-
 df.to_csv(r"E:\Natural-Language-Processing-Laboratory\Assignment-2\extracted_resume_data.csv", index=False)
 
 print("\nData Saved Successfully!")

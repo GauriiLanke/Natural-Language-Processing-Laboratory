@@ -1,10 +1,18 @@
+'''
+Name: Lanke Gauri Arvind 
+Class: Btech-B2
+Roll: 151
+
+Assignment 10: Prompt Engineering Techniques for LLMs
+'''
+
+
 """
 Assignment 10: Prompt Engineering Techniques for LLMs
 - Programmatic implementation of Zero-Shot, One-Shot, Few-Shot, and Chain-of-Thought (CoT) prompts
 - Legal document summarization, risk clause detection, and plain-language brief generation
 - Systematic evaluation of prompt templates and output quality impact
 """
-
 import os
 import json
 from typing import Dict
